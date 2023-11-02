@@ -1,0 +1,57 @@
+.form_cotizacion{
+width: 500px;
+height: 500px;
+border-radius: 15px;
+background-color:rgb(158, 17, 12);
+margin: auto;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type="text"], input[type="number"]{
+    width: 300px;
+    padding: 0.8em 4em 0.8em 1.7em;
+    color: #a01722;  
+    border: none;
+    
+}
+
+input[type="submit"]:hover{
+    background: #afaf08;
+}
+.enviar{
+    width: 100px;
+    height:40px;
+    padding: 8px ;
+    background-color: black;
+    color: yellow;
+    border-radius: 20px;
+    margin-left: 350px;   
+    cursor: pointer;
+}
+
+input{
+    border-radius: 15px;
+}
+
+img{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;  
+    margin-inline: 330px; 
+    margin-top: 20px; 
+}
+
+h1{
+    font-size: 28px;
+    color:yellow;
+    margin-inline: 10px;
+    margin-top: 2px;
+}
+
+
+

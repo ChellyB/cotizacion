@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 1 || DAW</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</head>
+<body>
+    <!--principal-->
+    <div class="form_cotizacion">
+        <!--cabecera-->        
+        <div class="cabecera">    
+            <img src="imgs/prote.jpg" alt="imagen de super selectos">
+        </div>
+        <!--fin cabecera-->
+        <h1>Cotización de Pedidos</h1>
+        <!--formulario-->
+        <form name="frml" onsubmit="return false;">            
+            <li>
+                <input type="text" id="nom_cotizante" value="" placeholder="Nombre cotizante" required>
+            </li>
+            <li>
+                <input type="number" id="cant_celulares" value="" placeholder="Cantidad de Proteinas" required>
+            </li>
+            <li>
+                <input type="text" id="nom_productos" value="" placeholder="Especifique marca" required>
+            </li>
+            <li>
+                <input type="number" id="precioUnitario" value="" placeholder="Precio Unitario" required>
+            </li>
+            <!--contenedor para boton submit-->
+            <div>
+                <input type="submit" class="enviar" onclick="cotizacionPedido()" value="ENVIAR">   
+            </div>            
+        </form>
+    </div>
+</body>
+</html>
